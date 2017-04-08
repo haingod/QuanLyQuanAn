@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2719E9A81E98E2FB00B1AAC3 /* MonAn+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2719E9A61E98E2FB00B1AAC3 /* MonAn+CoreDataClass.swift */; };
+		2719E9A91E98E2FB00B1AAC3 /* MonAn+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2719E9A71E98E2FB00B1AAC3 /* MonAn+CoreDataProperties.swift */; };
+		2719E9B41E98E35100B1AAC3 /* HinhAnh+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2719E9B21E98E35100B1AAC3 /* HinhAnh+CoreDataClass.swift */; };
+		2719E9B51E98E35100B1AAC3 /* HinhAnh+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2719E9B31E98E35100B1AAC3 /* HinhAnh+CoreDataProperties.swift */; };
+		2719E9B81E98E36700B1AAC3 /* TienTe+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2719E9B61E98E36700B1AAC3 /* TienTe+CoreDataClass.swift */; };
+		2719E9B91E98E36700B1AAC3 /* TienTe+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2719E9B71E98E36700B1AAC3 /* TienTe+CoreDataProperties.swift */; };
+		2719E9C71E98E53B00B1AAC3 /* BanAn+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2719E9C31E98E53B00B1AAC3 /* BanAn+CoreDataClass.swift */; };
+		2719E9C81E98E53B00B1AAC3 /* BanAn+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2719E9C41E98E53B00B1AAC3 /* BanAn+CoreDataProperties.swift */; };
+		2719E9C91E98E53B00B1AAC3 /* KhuVuc+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2719E9C51E98E53B00B1AAC3 /* KhuVuc+CoreDataClass.swift */; };
+		2719E9CA1E98E53B00B1AAC3 /* KhuVuc+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2719E9C61E98E53B00B1AAC3 /* KhuVuc+CoreDataProperties.swift */; };
 		27799C321E97EA3600206D87 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27799C311E97EA3600206D87 /* AppDelegate.swift */; };
 		27799C341E97EA3600206D87 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27799C331E97EA3600206D87 /* ViewController.swift */; };
 		27799C371E97EA3600206D87 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27799C351E97EA3600206D87 /* Main.storyboard */; };
@@ -16,6 +26,16 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2719E9A61E98E2FB00B1AAC3 /* MonAn+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MonAn+CoreDataClass.swift"; sourceTree = "<group>"; };
+		2719E9A71E98E2FB00B1AAC3 /* MonAn+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MonAn+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		2719E9B21E98E35100B1AAC3 /* HinhAnh+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "HinhAnh+CoreDataClass.swift"; sourceTree = "<group>"; };
+		2719E9B31E98E35100B1AAC3 /* HinhAnh+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "HinhAnh+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		2719E9B61E98E36700B1AAC3 /* TienTe+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "TienTe+CoreDataClass.swift"; sourceTree = "<group>"; };
+		2719E9B71E98E36700B1AAC3 /* TienTe+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "TienTe+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		2719E9C31E98E53B00B1AAC3 /* BanAn+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "BanAn+CoreDataClass.swift"; sourceTree = "<group>"; };
+		2719E9C41E98E53B00B1AAC3 /* BanAn+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "BanAn+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		2719E9C51E98E53B00B1AAC3 /* KhuVuc+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "KhuVuc+CoreDataClass.swift"; sourceTree = "<group>"; };
+		2719E9C61E98E53B00B1AAC3 /* KhuVuc+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "KhuVuc+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		27799C2E1E97EA3600206D87 /* QuanLyQuanAn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuanLyQuanAn.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		27799C311E97EA3600206D87 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		27799C331E97EA3600206D87 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -37,6 +57,55 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2719E9BA1E98E38F00B1AAC3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2719E9B61E98E36700B1AAC3 /* TienTe+CoreDataClass.swift */,
+				2719E9B71E98E36700B1AAC3 /* TienTe+CoreDataProperties.swift */,
+				2719E9B21E98E35100B1AAC3 /* HinhAnh+CoreDataClass.swift */,
+				2719E9B31E98E35100B1AAC3 /* HinhAnh+CoreDataProperties.swift */,
+				2719E9A61E98E2FB00B1AAC3 /* MonAn+CoreDataClass.swift */,
+				2719E9A71E98E2FB00B1AAC3 /* MonAn+CoreDataProperties.swift */,
+				2719E9C31E98E53B00B1AAC3 /* BanAn+CoreDataClass.swift */,
+				2719E9C41E98E53B00B1AAC3 /* BanAn+CoreDataProperties.swift */,
+				2719E9C51E98E53B00B1AAC3 /* KhuVuc+CoreDataClass.swift */,
+				2719E9C61E98E53B00B1AAC3 /* KhuVuc+CoreDataProperties.swift */,
+				27799C381E97EA3600206D87 /* QuanLyQuanAn.xcdatamodeld */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		2719E9BB1E98E39A00B1AAC3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				27799C351E97EA3600206D87 /* Main.storyboard */,
+				27799C3D1E97EA3600206D87 /* LaunchScreen.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		2719E9BC1E98E39E00B1AAC3 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				27799C331E97EA3600206D87 /* ViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		2719E9BD1E98E3A800B1AAC3 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Helper;
+			sourceTree = "<group>";
+		};
+		2719E9BE1E98E3BA00B1AAC3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		27799C251E97EA3600206D87 = {
 			isa = PBXGroup;
 			children = (
@@ -56,13 +125,14 @@
 		27799C301E97EA3600206D87 /* QuanLyQuanAn */ = {
 			isa = PBXGroup;
 			children = (
+				2719E9BE1E98E3BA00B1AAC3 /* Resources */,
+				2719E9BD1E98E3A800B1AAC3 /* Helper */,
+				2719E9BC1E98E39E00B1AAC3 /* Controller */,
+				2719E9BB1E98E39A00B1AAC3 /* View */,
+				2719E9BA1E98E38F00B1AAC3 /* Model */,
 				27799C311E97EA3600206D87 /* AppDelegate.swift */,
-				27799C331E97EA3600206D87 /* ViewController.swift */,
-				27799C351E97EA3600206D87 /* Main.storyboard */,
 				27799C3B1E97EA3600206D87 /* Assets.xcassets */,
-				27799C3D1E97EA3600206D87 /* LaunchScreen.storyboard */,
 				27799C401E97EA3600206D87 /* Info.plist */,
-				27799C381E97EA3600206D87 /* QuanLyQuanAn.xcdatamodeld */,
 			);
 			path = QuanLyQuanAn;
 			sourceTree = "<group>";
@@ -139,9 +209,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2719E9CA1E98E53B00B1AAC3 /* KhuVuc+CoreDataProperties.swift in Sources */,
+				2719E9A91E98E2FB00B1AAC3 /* MonAn+CoreDataProperties.swift in Sources */,
+				2719E9B41E98E35100B1AAC3 /* HinhAnh+CoreDataClass.swift in Sources */,
+				2719E9C81E98E53B00B1AAC3 /* BanAn+CoreDataProperties.swift in Sources */,
+				2719E9C91E98E53B00B1AAC3 /* KhuVuc+CoreDataClass.swift in Sources */,
 				27799C341E97EA3600206D87 /* ViewController.swift in Sources */,
+				2719E9A81E98E2FB00B1AAC3 /* MonAn+CoreDataClass.swift in Sources */,
+				2719E9C71E98E53B00B1AAC3 /* BanAn+CoreDataClass.swift in Sources */,
+				2719E9B91E98E36700B1AAC3 /* TienTe+CoreDataProperties.swift in Sources */,
+				2719E9B81E98E36700B1AAC3 /* TienTe+CoreDataClass.swift in Sources */,
 				27799C3A1E97EA3600206D87 /* QuanLyQuanAn.xcdatamodeld in Sources */,
 				27799C321E97EA3600206D87 /* AppDelegate.swift in Sources */,
+				2719E9B51E98E35100B1AAC3 /* HinhAnh+CoreDataProperties.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,6 +383,7 @@
 				27799C451E97EA3600206D87 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
