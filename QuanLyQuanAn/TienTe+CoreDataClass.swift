@@ -12,4 +12,11 @@ import CoreData
 @objc(TienTe)
 public class TienTe: NSManagedObject {
 
+    static let entityName = "TienTe"
+    
+    // Tạo mới một đối tượng để chèn vào CSDl
+    static func create() -> NSManagedObject {
+        return NSEntityDescription.insertNewObject(forEntityName: entityName, into: DB.MOC)
+    }
+
 }

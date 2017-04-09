@@ -17,6 +17,7 @@
 		2719E9C81E98E53B00B1AAC3 /* BanAn+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2719E9C41E98E53B00B1AAC3 /* BanAn+CoreDataProperties.swift */; };
 		2719E9C91E98E53B00B1AAC3 /* KhuVuc+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2719E9C51E98E53B00B1AAC3 /* KhuVuc+CoreDataClass.swift */; };
 		2719E9CA1E98E53B00B1AAC3 /* KhuVuc+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2719E9C61E98E53B00B1AAC3 /* KhuVuc+CoreDataProperties.swift */; };
+		2760674B1E99A634004D5643 /* DB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2760674A1E99A634004D5643 /* DB.swift */; };
 		27799C321E97EA3600206D87 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27799C311E97EA3600206D87 /* AppDelegate.swift */; };
 		27799C341E97EA3600206D87 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27799C331E97EA3600206D87 /* ViewController.swift */; };
 		27799C371E97EA3600206D87 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27799C351E97EA3600206D87 /* Main.storyboard */; };
@@ -36,6 +37,7 @@
 		2719E9C41E98E53B00B1AAC3 /* BanAn+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "BanAn+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		2719E9C51E98E53B00B1AAC3 /* KhuVuc+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "KhuVuc+CoreDataClass.swift"; sourceTree = "<group>"; };
 		2719E9C61E98E53B00B1AAC3 /* KhuVuc+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "KhuVuc+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		2760674A1E99A634004D5643 /* DB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DB.swift; sourceTree = "<group>"; };
 		27799C2E1E97EA3600206D87 /* QuanLyQuanAn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuanLyQuanAn.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		27799C311E97EA3600206D87 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		27799C331E97EA3600206D87 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -95,6 +97,7 @@
 		2719E9BD1E98E3A800B1AAC3 /* Helper */ = {
 			isa = PBXGroup;
 			children = (
+				2760674A1E99A634004D5643 /* DB.swift */,
 			);
 			name = Helper;
 			sourceTree = "<group>";
@@ -222,6 +225,7 @@
 				27799C3A1E97EA3600206D87 /* QuanLyQuanAn.xcdatamodeld in Sources */,
 				27799C321E97EA3600206D87 /* AppDelegate.swift in Sources */,
 				2719E9B51E98E35100B1AAC3 /* HinhAnh+CoreDataProperties.swift in Sources */,
+				2760674B1E99A634004D5643 /* DB.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
