@@ -86,7 +86,6 @@
         <!--View Controller-->
         <scene sceneID="sLY-TZ-egG">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Wbq-XD-hAU" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="Uev-5A-SBJ" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Vtt-SY-fIE"/>
@@ -109,7 +108,7 @@
                                                 <rect key="frame" x="0.0" y="28" width="320" height="44"/>
                                                 <autoresizingMask key="autoresizingMask"/>
                                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="RW2-79-p2K" id="kS8-Hz-xZd">
-                                                    <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                                                    <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                 </tableViewCellContentView>
                                                 <color key="backgroundColor" red="0.50887943270000002" green="1" blue="0.3258443392" alpha="1" colorSpace="calibratedRGB"/>
@@ -155,6 +154,7 @@
                         </constraints>
                     </view>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Wbq-XD-hAU" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-733.125" y="1777.8169014084508"/>
         </scene>
@@ -183,7 +183,7 @@
                                                 <rect key="frame" x="0.0" y="28" width="320" height="44"/>
                                                 <autoresizingMask key="autoresizingMask"/>
                                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="aK1-0i-NOW" id="bhh-ay-6XR">
-                                                    <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                                                    <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                 </tableViewCellContentView>
                                                 <color key="backgroundColor" red="0.50887943270000002" green="1" blue="0.3258443392" alpha="1" colorSpace="calibratedRGB"/>
@@ -258,7 +258,7 @@
                                                 <rect key="frame" x="0.0" y="28" width="320" height="44"/>
                                                 <autoresizingMask key="autoresizingMask"/>
                                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="1wB-6Q-ik9" id="27t-SF-c3u">
-                                                    <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                                                    <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                 </tableViewCellContentView>
                                                 <connections>
@@ -654,7 +654,7 @@
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gGg-kh-1Ut">
-                                            <rect key="frame" x="124" y="33" width="196" height="54"/>
+                                            <rect key="frame" x="124" y="33" width="106" height="54"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <nil key="textColor"/>
@@ -668,6 +668,12 @@
                                             <connections>
                                                 <segue destination="JVM-Js-Yaf" kind="show" id="v86-K2-2Mn"/>
                                             </connections>
+                                        </button>
+                                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HhN-lX-KSa">
+                                            <rect key="frame" x="236" y="45" width="84" height="30"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <color key="backgroundColor" red="0.94577074049999998" green="0.006005784133" blue="0.083793007089999996" alpha="1" colorSpace="calibratedRGB"/>
+                                            <state key="normal" title="Thanh Toan"/>
                                         </button>
                                     </subviews>
                                 </tableViewCellContentView>

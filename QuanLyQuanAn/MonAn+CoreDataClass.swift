@@ -75,11 +75,7 @@ public class MonAn: NSManagedObject {
         do{
             DB.save()
             return newmonan
-        } catch let error as NSError{
-            print("Cannot insert, \(error), \(error.userInfo)");
         }
-        
-        return nil
     }
     // Tìm một monan
     static func getBy(monan ten: String) -> MonAn? {

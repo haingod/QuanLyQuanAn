@@ -24,6 +24,8 @@
 		27799C3A1E97EA3600206D87 /* QuanLyQuanAn.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 27799C381E97EA3600206D87 /* QuanLyQuanAn.xcdatamodeld */; };
 		27799C3C1E97EA3600206D87 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27799C3B1E97EA3600206D87 /* Assets.xcassets */; };
 		27799C3F1E97EA3600206D87 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27799C3D1E97EA3600206D87 /* LaunchScreen.storyboard */; };
+		27900B271EA06343002A29A4 /* HoaDon+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27900B251EA06343002A29A4 /* HoaDon+CoreDataClass.swift */; };
+		27900B281EA06343002A29A4 /* HoaDon+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27900B261EA06343002A29A4 /* HoaDon+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +48,8 @@
 		27799C3B1E97EA3600206D87 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		27799C3E1E97EA3600206D87 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		27799C401E97EA3600206D87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27900B251EA06343002A29A4 /* HoaDon+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "HoaDon+CoreDataClass.swift"; sourceTree = "<group>"; };
+		27900B261EA06343002A29A4 /* HoaDon+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "HoaDon+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +66,8 @@
 		2719E9BA1E98E38F00B1AAC3 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				27900B251EA06343002A29A4 /* HoaDon+CoreDataClass.swift */,
+				27900B261EA06343002A29A4 /* HoaDon+CoreDataProperties.swift */,
 				2719E9B61E98E36700B1AAC3 /* TienTe+CoreDataClass.swift */,
 				2719E9B71E98E36700B1AAC3 /* TienTe+CoreDataProperties.swift */,
 				2719E9B21E98E35100B1AAC3 /* HinhAnh+CoreDataClass.swift */,
@@ -219,12 +225,14 @@
 				2719E9C91E98E53B00B1AAC3 /* KhuVuc+CoreDataClass.swift in Sources */,
 				27799C341E97EA3600206D87 /* ViewController.swift in Sources */,
 				2719E9A81E98E2FB00B1AAC3 /* MonAn+CoreDataClass.swift in Sources */,
+				27900B271EA06343002A29A4 /* HoaDon+CoreDataClass.swift in Sources */,
 				2719E9C71E98E53B00B1AAC3 /* BanAn+CoreDataClass.swift in Sources */,
 				2719E9B91E98E36700B1AAC3 /* TienTe+CoreDataProperties.swift in Sources */,
 				2719E9B81E98E36700B1AAC3 /* TienTe+CoreDataClass.swift in Sources */,
 				27799C3A1E97EA3600206D87 /* QuanLyQuanAn.xcdatamodeld in Sources */,
 				27799C321E97EA3600206D87 /* AppDelegate.swift in Sources */,
 				2719E9B51E98E35100B1AAC3 /* HinhAnh+CoreDataProperties.swift in Sources */,
+				27900B281EA06343002A29A4 /* HoaDon+CoreDataProperties.swift in Sources */,
 				2760674B1E99A634004D5643 /* DB.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

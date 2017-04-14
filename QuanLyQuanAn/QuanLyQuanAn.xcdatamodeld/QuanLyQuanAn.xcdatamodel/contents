@@ -11,6 +11,10 @@
     <entity name="HinhAnh" representedClassName="HinhAnh" syncable="YES">
         <attribute name="data" optional="YES" attributeType="Binary" allowsExternalBinaryDataStorage="YES" syncable="YES"/>
     </entity>
+    <entity name="HoaDon" representedClassName="HoaDon" syncable="YES">
+        <attribute name="thoigian" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <relationship name="monans" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="MonAn" syncable="YES"/>
+    </entity>
     <entity name="KhuVuc" representedClassName="KhuVuc" syncable="YES">
         <attribute name="mota" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="ten" optional="YES" attributeType="String" syncable="YES"/>
@@ -30,9 +34,10 @@
     </entity>
     <elements>
         <element name="BanAn" positionX="-63" positionY="-18" width="128" height="135"/>
-        <element name="MonAn" positionX="-54" positionY="-9" width="128" height="120"/>
-        <element name="KhuVuc" positionX="-36" positionY="9" width="128" height="105"/>
         <element name="HinhAnh" positionX="-18" positionY="27" width="128" height="60"/>
+        <element name="KhuVuc" positionX="-36" positionY="9" width="128" height="105"/>
+        <element name="MonAn" positionX="-54" positionY="-9" width="128" height="120"/>
         <element name="TienTe" positionX="0" positionY="45" width="128" height="75"/>
+        <element name="HoaDon" positionX="-27" positionY="36" width="128" height="75"/>
     </elements>
 </model>
