@@ -27,5 +27,8 @@ public class HoaDon: NSManagedObject {
         }
         
     }
-
+    // Tạo mới một đối tượng để chèn vào CSDl
+    static func create() -> NSManagedObject {
+        return NSEntityDescription.insertNewObject(forEntityName: entityName, into: DB.MOC)
+    }
 }

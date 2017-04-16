@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2718BFF91EA1E228001A269E /* TableViewControllerKhuVuc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2718BFF81EA1E228001A269E /* TableViewControllerKhuVuc.swift */; };
+		2718BFFB1EA1E2F6001A269E /* TbvCellKhuVuc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2718BFFA1EA1E2F6001A269E /* TbvCellKhuVuc.swift */; };
+		2718C0011EA2041B001A269E /* CVCellKhuVuc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2718C0001EA2041B001A269E /* CVCellKhuVuc.swift */; };
+		2718C0031EA20B00001A269E /* StringHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2718C0021EA20B00001A269E /* StringHelper.swift */; };
+		2718C0051EA20B10001A269E /* UIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2718C0041EA20B10001A269E /* UIHelper.swift */; };
+		2718C0071EA2163D001A269E /* ViewControllerThemKhuVuc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2718C0061EA2163D001A269E /* ViewControllerThemKhuVuc.swift */; };
 		2719E9A81E98E2FB00B1AAC3 /* MonAn+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2719E9A61E98E2FB00B1AAC3 /* MonAn+CoreDataClass.swift */; };
 		2719E9A91E98E2FB00B1AAC3 /* MonAn+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2719E9A71E98E2FB00B1AAC3 /* MonAn+CoreDataProperties.swift */; };
 		2719E9B41E98E35100B1AAC3 /* HinhAnh+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2719E9B21E98E35100B1AAC3 /* HinhAnh+CoreDataClass.swift */; };
@@ -17,6 +23,9 @@
 		2719E9C81E98E53B00B1AAC3 /* BanAn+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2719E9C41E98E53B00B1AAC3 /* BanAn+CoreDataProperties.swift */; };
 		2719E9C91E98E53B00B1AAC3 /* KhuVuc+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2719E9C51E98E53B00B1AAC3 /* KhuVuc+CoreDataClass.swift */; };
 		2719E9CA1E98E53B00B1AAC3 /* KhuVuc+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2719E9C61E98E53B00B1AAC3 /* KhuVuc+CoreDataProperties.swift */; };
+		274780331EA32C71001630ED /* ViewControllerThongKeDoanhThu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 274780321EA32C71001630ED /* ViewControllerThongKeDoanhThu.swift */; };
+		274780351EA32E18001630ED /* ViewControllerThongKeDoanhThu2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 274780341EA32E18001630ED /* ViewControllerThongKeDoanhThu2.swift */; };
+		274780371EA33817001630ED /* TbvCellThongKe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 274780361EA33817001630ED /* TbvCellThongKe.swift */; };
 		2760674B1E99A634004D5643 /* DB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2760674A1E99A634004D5643 /* DB.swift */; };
 		27799C321E97EA3600206D87 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27799C311E97EA3600206D87 /* AppDelegate.swift */; };
 		27799C341E97EA3600206D87 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27799C331E97EA3600206D87 /* ViewController.swift */; };
@@ -29,6 +38,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2718BFF81EA1E228001A269E /* TableViewControllerKhuVuc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewControllerKhuVuc.swift; sourceTree = "<group>"; };
+		2718BFFA1EA1E2F6001A269E /* TbvCellKhuVuc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TbvCellKhuVuc.swift; sourceTree = "<group>"; };
+		2718C0001EA2041B001A269E /* CVCellKhuVuc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CVCellKhuVuc.swift; sourceTree = "<group>"; };
+		2718C0021EA20B00001A269E /* StringHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringHelper.swift; sourceTree = "<group>"; };
+		2718C0041EA20B10001A269E /* UIHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIHelper.swift; sourceTree = "<group>"; };
+		2718C0061EA2163D001A269E /* ViewControllerThemKhuVuc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerThemKhuVuc.swift; sourceTree = "<group>"; };
 		2719E9A61E98E2FB00B1AAC3 /* MonAn+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MonAn+CoreDataClass.swift"; sourceTree = "<group>"; };
 		2719E9A71E98E2FB00B1AAC3 /* MonAn+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MonAn+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		2719E9B21E98E35100B1AAC3 /* HinhAnh+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "HinhAnh+CoreDataClass.swift"; sourceTree = "<group>"; };
@@ -39,6 +54,9 @@
 		2719E9C41E98E53B00B1AAC3 /* BanAn+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "BanAn+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		2719E9C51E98E53B00B1AAC3 /* KhuVuc+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "KhuVuc+CoreDataClass.swift"; sourceTree = "<group>"; };
 		2719E9C61E98E53B00B1AAC3 /* KhuVuc+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "KhuVuc+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		274780321EA32C71001630ED /* ViewControllerThongKeDoanhThu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerThongKeDoanhThu.swift; sourceTree = "<group>"; };
+		274780341EA32E18001630ED /* ViewControllerThongKeDoanhThu2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerThongKeDoanhThu2.swift; sourceTree = "<group>"; };
+		274780361EA33817001630ED /* TbvCellThongKe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TbvCellThongKe.swift; sourceTree = "<group>"; };
 		2760674A1E99A634004D5643 /* DB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DB.swift; sourceTree = "<group>"; };
 		27799C2E1E97EA3600206D87 /* QuanLyQuanAn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuanLyQuanAn.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		27799C311E97EA3600206D87 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -96,6 +114,13 @@
 			isa = PBXGroup;
 			children = (
 				27799C331E97EA3600206D87 /* ViewController.swift */,
+				2718BFF81EA1E228001A269E /* TableViewControllerKhuVuc.swift */,
+				2718BFFA1EA1E2F6001A269E /* TbvCellKhuVuc.swift */,
+				2718C0001EA2041B001A269E /* CVCellKhuVuc.swift */,
+				2718C0061EA2163D001A269E /* ViewControllerThemKhuVuc.swift */,
+				274780321EA32C71001630ED /* ViewControllerThongKeDoanhThu.swift */,
+				274780341EA32E18001630ED /* ViewControllerThongKeDoanhThu2.swift */,
+				274780361EA33817001630ED /* TbvCellThongKe.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -104,6 +129,8 @@
 			isa = PBXGroup;
 			children = (
 				2760674A1E99A634004D5643 /* DB.swift */,
+				2718C0021EA20B00001A269E /* StringHelper.swift */,
+				2718C0041EA20B10001A269E /* UIHelper.swift */,
 			);
 			name = Helper;
 			sourceTree = "<group>";
@@ -222,16 +249,25 @@
 				2719E9A91E98E2FB00B1AAC3 /* MonAn+CoreDataProperties.swift in Sources */,
 				2719E9B41E98E35100B1AAC3 /* HinhAnh+CoreDataClass.swift in Sources */,
 				2719E9C81E98E53B00B1AAC3 /* BanAn+CoreDataProperties.swift in Sources */,
+				2718BFF91EA1E228001A269E /* TableViewControllerKhuVuc.swift in Sources */,
 				2719E9C91E98E53B00B1AAC3 /* KhuVuc+CoreDataClass.swift in Sources */,
+				2718C0051EA20B10001A269E /* UIHelper.swift in Sources */,
 				27799C341E97EA3600206D87 /* ViewController.swift in Sources */,
+				2718C0071EA2163D001A269E /* ViewControllerThemKhuVuc.swift in Sources */,
+				2718C0011EA2041B001A269E /* CVCellKhuVuc.swift in Sources */,
 				2719E9A81E98E2FB00B1AAC3 /* MonAn+CoreDataClass.swift in Sources */,
 				27900B271EA06343002A29A4 /* HoaDon+CoreDataClass.swift in Sources */,
 				2719E9C71E98E53B00B1AAC3 /* BanAn+CoreDataClass.swift in Sources */,
+				274780331EA32C71001630ED /* ViewControllerThongKeDoanhThu.swift in Sources */,
+				2718BFFB1EA1E2F6001A269E /* TbvCellKhuVuc.swift in Sources */,
 				2719E9B91E98E36700B1AAC3 /* TienTe+CoreDataProperties.swift in Sources */,
+				274780371EA33817001630ED /* TbvCellThongKe.swift in Sources */,
 				2719E9B81E98E36700B1AAC3 /* TienTe+CoreDataClass.swift in Sources */,
 				27799C3A1E97EA3600206D87 /* QuanLyQuanAn.xcdatamodeld in Sources */,
 				27799C321E97EA3600206D87 /* AppDelegate.swift in Sources */,
+				274780351EA32E18001630ED /* ViewControllerThongKeDoanhThu2.swift in Sources */,
 				2719E9B51E98E35100B1AAC3 /* HinhAnh+CoreDataProperties.swift in Sources */,
+				2718C0031EA20B00001A269E /* StringHelper.swift in Sources */,
 				27900B281EA06343002A29A4 /* HoaDon+CoreDataProperties.swift in Sources */,
 				2760674B1E99A634004D5643 /* DB.swift in Sources */,
 			);
