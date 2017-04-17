@@ -17,15 +17,15 @@ public class KhuVuc: NSManagedObject {
     // Lấy tất cả danh sách
     static func all() -> [NSManagedObject] {
         let fetchRequest: NSFetchRequest<NSManagedObject> = NSFetchRequest(entityName: entityName)
+        
         do {
-            let idSort = NSSortDescriptor(key: "ten", ascending: true)
-            fetchRequest.sortDescriptors = [idSort]
             let list = try DB.MOC.fetch(fetchRequest as! NSFetchRequest<NSFetchRequestResult>) as! [NSManagedObject]
             return list
         } catch let error as NSError {
             print("Cannot get all from entity \(entityName), error: \(error), \(error.userInfo)")
             return []
         }
+        
     }
     
     // Xoa tất cả danh sách
@@ -103,4 +103,27 @@ public class KhuVuc: NSManagedObject {
             return []
         }
     }
+    //Swap
+    static func swap(source:Int,end:Int){
+        var ds = KhuVuc.all() as! [KhuVuc]
+        let mota = ds[source].mota
+        let ten = ds[source].ten
+        let banan = ds[source].banans
+        let hinhanh = ds[source].hinhanhs
+        
+        ds[source].mota =  ds[end].mota
+        ds[source].ten =  ds[end].ten
+        ds[source].banans = ds[end].banans
+        ds[source].hinhanhs = ds[end].hinhanhs
+        
+        ds[end].mota = mota
+        ds[end].ten = ten
+        ds[end].banans = banan
+        ds[end].hinhanhs = hinhanh
+        
+        
+        DB.save()
+    }
+    
+
 }
